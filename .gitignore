@@ -1,2 +1,4 @@
 # folders used in local testing, or for README.md file graphics
 mAb_Jones2019/julia/other/
+.Rproj.user
+.DS_Store
