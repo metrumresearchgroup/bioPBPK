@@ -3,6 +3,7 @@ A collection of open-source physiologically-based pharmacokinetics models implem
 
 # Current models
 1. A mAb PBPK model implemented in [Julia](https://github.com/metrumresearchgroup/bioPBPK/blob/main/mAb_Jones2019/julia/)
+2. A mAb PBPK model adapted for bamlanivimab in [mrgsolve](https://github.com/metrumresearchgroup/bioPBPK/tree/main/mAb_bamlanivimab)
 
 # Near-term development
 We anticipate incorporating the following items into near-term releases:
