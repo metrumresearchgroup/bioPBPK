@@ -2,7 +2,7 @@
 
 This repository contains the script to reproduce Figures 2 and 3 from the Bamlanivimab manuscript. The mAb PBPK model used is an adaptation of the [mAb_Jones2019](https://github.com/metrumresearchgroup/bioPBPK/tree/main/mAb_Jones2019) model (https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12461). The main modification was making the total number of endothelial cells dependent on weight to reflect the variability in a population. This was done using the allometric scaling suggested by Ucciferri et al 2014 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4269269/pdf/fbioe-02-00074.pdf:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=Endo_{scaled}=&space;Endo_{mean}*&space;(\frac{BW}{BW_{mean}})^{\frac{11}{12}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Endo_{scaled}=&space;Endo_{mean}*&space;(\frac{BW}{BW_{mean}})^{\frac{11}{12}}" title="Endo_{scaled}= Endo_{mean}* (\frac{BW}{BW_{mean}})^{\frac{11}{12}}" /></a>
+<img src="https://render.githubusercontent.com/render/math?math=Endo_%7Bscaled%7D%3D+Endo_%7Bmean%7D%2A+%28%5Cfrac%7BBW%7D%7BBW_%7Bmean%7D%7D%29%5E%7B%5Cfrac%7B11%7D%7B12%7D%7D">
 
 where <img src="https://render.githubusercontent.com/render/math?math=Endo"> is total number of endothelial cells, <img src="https://render.githubusercontent.com/render/math?math=BW"> is body weight, <img src="https://render.githubusercontent.com/render/math?math=mean"> refers to the mean individual, and <img src="https://render.githubusercontent.com/render/math?math=scaled"> refers to the allometrically scaled value.
 
